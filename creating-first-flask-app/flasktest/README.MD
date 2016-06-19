@@ -1,10 +1,10 @@
-Create a python file called hello.py
+Create a python file and save it as hello.py
 In order to test Flask installation, type the following code in the editor as hello.py
 	from flask import Flask
 	app = Flask(__name__)
 	@app.route('/')
 	def hello_world():
-		return 'Hello World’
+		return 'Hello Worldâ€™
 	if __name__ == '__main__':
 		app.run(host='127.0.0.1', port=5000)
 Importing flask module in the project is mandatory. An object of Flask class is our WSGI
@@ -17,10 +17,10 @@ URL should call the associated function.
 app.route(rule, options)
 - The rule parameter represents URL binding with the function.
 - The options is a list of parameters to be forwarded to the underlying Rule object.
-In the above example, ‘/’ URL is bound with hello_world() function. Hence, when the
+In the above example, â€˜/â€™ URL is bound with hello_world() function. Hence, when the
 home page of web server is opened in browser, the output of this function will be rendered.
 	def hello_world():
-		return 'Hello World’
+		return 'Hello Worldâ€™
 That is the hello_world() function that returns "Hello World" when called.
 
 finally 
